@@ -3,7 +3,7 @@ pipeline {
   agent any
   
   environment {
-  def dockerRun = 'docker run -d -p 80:8080 --name jenkins-php jmacalimait/nginx-test:php'
+  def dockerRun = 'docker run -d -p 8080:80 --name jenkins-php jmacalimait/nginx-test:php'
    
   }
     
